@@ -12,10 +12,8 @@ import org.springframework.stereotype.Controller;
 @AllArgsConstructor
 public class Paciente {
 
-    private String primerNombre;
-    private String segundoNombre;
-    private String primerApellido;
-    private String segundoApellido;
+    private String nombre;
+    private String apellido;
     private String cedula;
     int edad;
 }

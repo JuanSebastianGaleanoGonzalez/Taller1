@@ -1,0 +1,102 @@
+.titulo{
+    border-bottom: 1px solid gray;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+.divExterno{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 50%;
+    height: 50%;
+    margin: auto;
+}
+.botones{
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form {
+    width: 500px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.input_group label {
+    width: 100px;
+    text-align: justify;
+    margin-right: 10px;
+}
+.divFormulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input_group input{
+    width: 100%;
+}
+input[type="submit"] {
+    background-color: #0069d9;
+    width: fit-content;
+}
+.input_group{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    align-items: center;
+}
+.text{
+    text-align: justify;
+}
+.formDate{
+    display: flex;
+    flex-direction: row;
+}
+.boton{
+    color: white;
+    font-weight: bold;
+    background-color: #2979FF;
+    border: gray;
+    border-radius: 7px;
+    padding: 10px;
+    margin: 10px;
+}
+/*----------------------------------------------------*/
+.tabla {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+}
+table {
+    width: 100%;
+    border:  1px solid #2979FF;
+}
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+th {
+    background-color: #2979FF;
+    color: #fff;
+}
+td{
+}
+tr:nth-child(even) {
+    background-color: rgba(0,154,242,0.51);
+}
+tr:nth-child(odd) {
+    background-color: white;
+}
+
+.formFechaCita{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}

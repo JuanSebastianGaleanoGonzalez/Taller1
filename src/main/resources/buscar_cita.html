@@ -1,10 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Buscar Cita</title>
+    <link rel="stylesheet" type="text/css" href="static/styles.css"/>
 </head>
 <body>
-
+<div class="divExterno">
+    <div class="titulo">
+        <p>Buscar</p>
+    </div>
+    <div class="divBuscar">
+        <div class="formFechaCita">
+            <form>
+                <div class="input_group">
+                    <label for="fecha">Citas por:</label>
+                    <input type="date" id="fecha" name="fecha">
+                </div>
+            </form>
+        </div>
+        <div>
+            <div class="tabla">
+                <table>
+                    <tr>
+                        <th>Cédula</th>
+                        <th>Nombre</th>
+                        <th>Apellido</th>
+                        <th>Edad</th>
+                        <th>Fecha</th>
+                        <th>Hora</th>
+                    </tr>
+                    <tr>
+                        <td>John</td>
+                        <td>35</td>
+                        <td>35</td>
+                        <td>35</td>
+                        <td>35</td>
+                        <td>35</td>
+                    </tr>
+                    <tr>
+                        <td>Jane</td>
+                        <td>28</td>
+                        <td>28</td>
+                        <td>28</td>
+                        <td>28</td>
+                        <td>28</td>
+                    </tr>
+                    <tr>
+                        <td>Bob</td>
+                        <td>42</td>
+                        <td>42</td>
+                        <td>42</td>
+                        <td>42</td>
+                        <td>42</td>
+                    </tr>
+                    <tr>
+                        <td>Sara</td>
+                        <td>31</td>
+                        <td>31</td>
+                        <td>31</td>
+                        <td>31</td>
+                        <td>31</td>
+                    </tr>
+                </table>
+                <div>
+                    <button class="boton">Agendar</button>
+                    <button class="boton">Buscar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 </body>
 </html>
